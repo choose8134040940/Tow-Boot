@@ -30,3 +30,4 @@ patches are owned by their authors under the same license.
 
 At the risk of repetition **the produced binaries are GPL-2.0+**, since
 *U-Boot* itself is.
+sudo dd if=IMAGE.img of=/dev/[DEVICE] bs=1M status=progress conv=fsync
